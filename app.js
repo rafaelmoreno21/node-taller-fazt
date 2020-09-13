@@ -12,5 +12,8 @@ app.get("/about", (req, res) => {
 app.get("/skills", (req, res) => {
   res.send("skills");
 });
+app.get("/new", (req, res) => {
+  res.send("nueva ruta");
+});
 
 app.listen(process.env.PORT || 3000);
